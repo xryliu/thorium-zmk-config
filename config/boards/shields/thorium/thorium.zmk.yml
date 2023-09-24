@@ -1,0 +1,12 @@
+file_format: "1"
+id: thorium
+name: Thorium
+type: shield
+url: https://github.com/note96e/thorium
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - thorium
+  - thorium_left
+  - thorium_right

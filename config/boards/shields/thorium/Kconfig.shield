@@ -1,0 +1,8 @@
+config SHIELD_THORIUM
+    def_bool $(shields_list_contains,thorium)
+
+config SHIELD_THORIUM_LEFT
+    def_bool $(shields_list_contains,thorium_left)
+
+config SHIELD_THORIUM_RIGHT
+    def_bool $(shields_list_contains,thorium_right)

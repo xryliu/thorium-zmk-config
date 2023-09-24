@@ -1,0 +1,50 @@
+if SHIELD_THORIUM
+
+config ZMK_BLE
+    default y
+
+config ZMK_USB
+    default y
+
+config ZMK_KEYBOARD_NAME
+    default "Thorium"
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_THORIUM_LEFT
+
+config ZMK_BLE
+    default y
+
+config ZMK_USB
+    default y
+
+config ZMK_KEYBOARD_NAME
+    default "ThoriumL"
+
+config ZMK_SPLIT
+    default y
+
+endif
+
+if SHIELD_THORIUM_RIGHT
+
+config ZMK_BLE
+    default y
+
+config ZMK_USB
+    default y
+
+config ZMK_KEYBOARD_NAME
+    default "ThoriumR"
+
+config ZMK_SPLIT
+    default y
+
+endif
