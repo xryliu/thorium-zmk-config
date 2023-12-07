@@ -13,4 +13,4 @@
 #
 ---
 board: [ "seeeduino_xiao_ble" ]
-shield: [ "thorium", "thorium_left", "thorium_right" ]
+shield: [ "thorium", "thorium_left" ]
